@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+
+* {
+  box-sizing: border-box;
+}
+
+.main-header {
+  background-color: #565656;
+}
+
+.main-header__brand {
+  background-color: #e0660c;
+  border-bottom: #582f11 3px solid;
+  color: #ffffff;
+}
