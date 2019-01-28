@@ -31,6 +31,11 @@
   width: 30%;
 }
 
+.plan__list {
+  width: 80%;
+  margin: auto;
+}
+
 .plan--highlighted {
   background-color: #19b84c;
   color: white;

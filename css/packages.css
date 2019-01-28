@@ -9,6 +9,12 @@ main {
   width: 80%;
 }
 
+.plan:hover,
+.plan:active {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  border-color:  #ff5454;
+}
+
 .plan a {
   color: inherit;
   display: block;
@@ -21,10 +27,15 @@ main {
 }
 
 .plan__info {
+  background-color: #ffffff;
   border: 1px solid #0e4f1f;
   color: #0e4f1f;
   font-size: 20px;
   padding: 16px;
+}
+
+.clearfix {
+  clear: both;
 }
 
 #plus {
@@ -33,8 +44,24 @@ main {
 
 #free {
   background: rgba(234, 252, 237, 0.95);
+  border-right: none;
+  border-left: 4px solid #0e4f1f;
+  float: right;
+  text-align: right;
+}
+
+#free:hover {
+  border-color: #ff5454;
 }
 
 #premium {
   background: rgba(14, 79, 31, 0.95);
+}
+
+#premium .plan__title {
+  color: #ffffff;
+}
+
+#premium .plan__subtitle {
+  color: #bbbbbb;
 }
