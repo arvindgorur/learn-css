@@ -1,0 +1,41 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+#product-overview {
+    background: #ff1b68;
+}
+
+.section-title {
+    color: #2ddf5c;
+}
+
+#product-overview {
+    padding: 20px;
+    border: 5px black solid;
+    margin: 20px;
+}
+
+#product-overview h1 {
+    color: white;
+    font-size: 32px;
+    font-family: 'Combo', sans-serif;
+    margin: 0px;
+}
+
+.button {
+    width: 10em;
+    height: 5ex;
+    background-color: #2fb730;
+    border: 2px solid #173415;
+    border-radius: 10px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.button:hover {
+    background-color: #00f93c;
+}
